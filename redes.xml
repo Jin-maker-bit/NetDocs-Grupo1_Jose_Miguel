@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<caracteristicas>
+
+    <!-- Página uno-->
+    <paginaUno>
+        <title>
+            <![CDATA[
+            <b>Características de las Redes de Computadoras</b>
+            ]]>
+        </title>
+        <description>Una exploración completa de los fundamentos de la conectividad digital: desde
+            los
+            conceptos básicos hasta las arquitecturas modernas que sustentan nuestra sociedad
+            interconectada
+        </description>
+        <img>imagepage1.png</img>
+    </paginaUno>
+
+    <!-- Página dos-->
+    <paginaDos>
+        <minititle>FUNDAMENTOS</minititle>
+        <title><![CDATA[
+            <b>Definición y Propiedades Clave de las Redes</b>]]></title>
+        <description>
+            Una red de computadoras es un conjunto de dispositivos interconectados que comparten
+            recursos (impresoras, servidores, almacenamiento) e
+            información de manera eficiente.
+            Esta infraestructura digital es el pilar fundamental que permite la comunicación global
+            instantánea y el intercambio de datos en tiempo real.
+        </description>
+        <tipos>
+            <tipo>
+                <title><![CDATA[<b>Interoperabilidad</b>]]></title>
+                <description>
+                    Capacidad crucial de conectar equipos de
+                    distintos fabricantes y sistemas operativos
+                    sin incompatibilidades.
+                    Por ejemplo, un ordenador Windows puede
+                    colaborar perfectamente con un Mac, un
+                    servidor Linux y dispositivos Android en la
+                    misma red gracias a protocolos estándar y
+                    arquitecturas abiertas.
+                </description>
+            </tipo>
+            <tipo>
+                <title><![CDATA[<b>Escalabilidad</b>]]></title>
+                <description>
+                    La red debe poder crecer y adaptarse a las
+                    necesidades cambiantes de la organización.
+                    Esto significa añadir nuevos usuarios,
+                    dispositivos o servicios sin degradar el
+                    rendimiento existente. Una red escalable se
+                    diseña pensando en el futuro, con margen
+                    de crecimiento en ancho de banda y
+                    capacidad de procesamiento.
+                </description>
+            </tipo>
+            <tipo>
+                <title><![CDATA[<b>Seguridad</b>]]></title>
+                <description>
+                    Protección integral contra amenazas
+                    digitales (malware, phishing, ataques DDoS,
+                    ransomware) mediante múltiples capas de
+                    defensa:
+                    Firewalls que filtran tráfico no autorizado,
+                    cifrado de datos en tránsito, VPNs para
+                    conexiones remotas seguras, y sistemas de
+                    detección de intrusiones.
+                </description>
+            </tipo>
+        </tipos>
+        <description>
+            La importancia de las redes en la actualidad es indiscutible: son vitales para el
+            teletrabajo mediante VPNs corporativas seguras, fundamentales para la
+            educación a distancia con plataformas de videoconferencia, y esenciales para el
+            Internet de las Cosas (IoT) que conecta miles de millones de
+            dispositivos inteligentes en hogares, ciudades y fábricas.
+        </description>
+    </paginaDos>
+
+    <!-- Página tres-->
+    <paginaTres>
+        <minititle>CLASIFICACIÓN</minititle>
+        <title><![CDATA[<b>Clasificación de Redes según su Alcance Geográfico</b> ]]></title>
+        <description>
+            Las redes se clasifican principalmente por el área geográfica que cubren, determinando
+            sus características técnicas, velocidad de transmisión y casos de uso específicos.
+        </description>
+        <tipos>
+            <tipo>
+                <img>pan.png</img>
+                <title><![CDATA[<b>PAN (Red de Área Personal)</b>]]></title>
+                <description>
+                    <![CDATA[
+                    Alcance de pocos metros, generalmente hasta 10m. Conecta dispositivos
+                    personales cercanos al usuario. <b>Ejemplo típico:</b> Bluetooth conectando 
+                    un smartwatch, auriculares inalámbricos o teclado al teléfono móvil. 
+                    Tecnologías: Bluetooth, NFC, USB.
+                    ]]>
+                </description>
+            </tipo>
+            <tipo>
+                <img>lan.png</img>
+                <title><![CDATA[<b>LAN (Red de Área Local)</b>]]></title>
+
+                <description>
+                    <![CDATA[
+                    Cubre edificios individuales o campus pequeños (hasta 1-2 km). 
+                    Alta velocidad y bajo coste. <b>Ejemplo típico:</b> La red Wi-Fi y 
+                    Ethernet de una oficina, casa, escuela o centro comercial. Permite 
+                    compartir impresoras, archivos y conexión a Internet.
+                    ]]>
+                </description>
+            </tipo>
+            <tipo>
+                <img>man.png</img>
+                <title><![CDATA[<b>MAN (Red de Área Metropolitana)</b>]]></title>
+
+                <description>
+                    <![CDATA[ 
+                    Cobertura del tamaño de una ciudad completa (hasta 50 km). <b>Ejemplo
+                    típico:</b> Red que interconecta varios campus universitarios dispersos o red de
+                    fibra óptica municipal que conecta edificios gubernamentales.
+                    ]]>
+                </description>
+            </tipo>
+            <tipo>
+                <img>wan.png</img>
+                <title><![CDATA[<b>WAN (Red de Área Amplia)</b>]]></title>
+
+                <description>
+                    <![CDATA[
+                    Alcance global, continental o incluso mundial. <b>Ejemplo típico:</b> 
+                    Internet es la WAN más grande del mundo. También redes corporativas 
+                    multinacionales que conectan oficinas en diferentes países mediante 
+                    enlaces satelitales y cables submarinos.
+                    ]]>
+                </description>
+            </tipo>
+        </tipos>
+    </paginaTres>
+
+    <!-- Página Cuatro-->
+    <paginaCuatro>
+        <minititle>MEDIOS DE TRANSMISIÓN</minititle>
+        <title><![CDATA[<b>Tipos de Conexión: Guiadas e Inalámbricas</b>]]></title>
+        <secciones>
+            <guiados>
+                <title><![CDATA[<b>Conexiones por Cable (Medios Guiados)</b>]]></title>
+                <description>
+                    Las conexiones físicas ofrecen mayor estabilidad, seguridad y
+                    velocidades predecibles, aunque limitan la movilidad.
+                </description>
+                <items>
+                    <item>
+                        <nombre><![CDATA[<b>Ethernet (Par Trenzado)</b>]]></nombre>
+                        <contenido>
+                            <description>
+                                El estándar dominante en redes LAN. Utiliza cables de cobre con
+                                pares de hilos trenzados que reducen interferencias
+                                electromagnéticas.
+                            </description>
+                            <tipos>
+                                <tipo>
+                                    <title><![CDATA[<b>Cat5e:</b>]]></title>
+                                    <description> Hasta 1 Gbps, 100 metros máximo</description>
+                                </tipo>
+                                <tipo>
+                                    <title><![CDATA[<b>Cat6:</b>]]></title>
+                                    <description> Hasta 10 Gbps en distancias cortas</description>
+                                </tipo>
+                                <tipo>
+                                    <title><![CDATA[<b>Cat6a/Cat7:</b>]]></title>
+                                    <description>
+                                        10 Gbps sostenidos, blindaje mejorado.
+                                    </description>
+                                </tipo>
+                            </tipos>
+                            <description>
+                                Ventajas: Alta velocidad, bajo coste, estabilidad. Uso:
+                                Oficinas, hogares, centros de datos.
+                            </description>
+                        </contenido>
+                    </item>
+                    <item>
+                        <nombre><![CDATA[<b>Fibra Óptica</b>]]></nombre>
+                        <contenido>
+                            <description>
+                                Transmite datos mediante pulsos de luz a través de filamentos de
+                                vidrio o plástico ultrapuros. Tecnología de mayor rendimiento
+                                disponible.
+                            </description>
+                            <tipos>
+                                <tipo>
+                                    <title><![CDATA[<b>Monomodo:</b>]]></title>
+                                    <description> Un solo haz de luz, largas distancias (100+ km),
+                                        costosa.</description>
+                                </tipo>
+                                <tipo>
+                                    <title><![CDATA[<b>Multimodo:</b>]]></title>
+                                    <description>
+                                        Múltiples haces, distancias cortas (2 km), más económica.
+                                    </description>
+                                </tipo>
+                            </tipos>
+                            <description>
+                                Ventajas: Velocidades de Terabits/s, inmune a
+                                interferencias.
+                            </description>
+                        </contenido>
+                    </item>
+                </items>
+            </guiados>
+
+            <noGuiados>
+                <title><![CDATA[<b>Conexiones Inalámbricas (Medios No Guiados)</b>]]></title>
+                <description>
+                    Utilizan ondas electromagnéticas para transmitir datos sin cables físicos,
+                    proporcionando movilidad y flexibilidad.
+                </description>
+                <items>
+                    <item>
+                        <nombre><![CDATA[<b>Wi-Fi (Estándares 802.11)</b>]]></nombre>
+                        <contenido>
+                            <description>
+                                Utiliza ondas de radio en las bandas de 2.4 GHz, 5 GHz y 6 GHz
+                                (Wi-Fi 6E). Permite movilidad total dentro del área de cobertura.
+                            </description>
+                            <tipos>
+                                <tipo>
+                                    <title><![CDATA[<b>Alcance:</b>]]></title>
+                                    <description> 30-100 metros (interior/exterior).</description>
+                                </tipo>
+                                <tipo>
+                                    <title><![CDATA[<b>Velocidad:</b>]]></title>
+                                    <description> Hasta 9.6 Gbps (802.11ax Wi-Fi 6).</description>
+                                </tipo>
+                                <tipo>
+                                    <title><![CDATA[<b>Desventajas:</b>]]></title>
+                                    <description> Susceptible a interferencias y menor seguridad que
+                                        el cable.</description>
+                                </tipo>
+                            </tipos>
+                            <description>
+                                Desventajas: Susceptible a interferencias, menor seguridad que
+                                cable, velocidad variable según distancia y obstáculos.
+                            </description>
+                        </contenido>
+                    </item>
+                    <item>
+                        <nombre><![CDATA[<b>Redes Híbridas</b>]]></nombre>
+                        <contenido>
+                            <description>
+                                Combinan lo mejor de ambos mundos: conexiones cableadas para
+                                equipos fijos que requieren máximo rendimiento y Wi-Fi para
+                                dispositivos móviles.
+                            </description>
+                            <tipos>
+                                <tipo>
+                                    <title><![CDATA[<b>Ejemplo típico:</b>]]></title>
+                                    <description>
+                                        Una oficina con servidores y PCs de escritorio
+                                        conectados por Ethernet Gigabit, pero portátiles, tablets y
+                                        smartphones usando Wi-Fi 6 para movilidad.
+                                    </description>
+                                </tipo>
+                            </tipos>
+                            <description>
+                                Esta es la configuración más común y recomendada
+                                actualmente.
+                            </description>
+                        </contenido>
+                    </item>
+                </items>
+            </noGuiados>
+        </secciones>
+    </paginaCuatro>
+
+    <!-- Página cinco -->
+    <paginaCinco>
+
+        <etiqueta>ARQUITECTURA</etiqueta>
+        <titulo><![CDATA[<b>Modelo OSI: Las 7 Capas de la Comunicación</b>]]></titulo>
+
+        <introduccion>
+            El modelo OSI (Open Systems Interconnection) es un modelo estandarizado teórico y
+            modular desarrollado por la ISO que divide el proceso de comunicación en red en 7 capas
+            independientes.
+        </introduccion>
+
+        <introduccion>
+            <![CDATA[
+            ISO (Organización Internacional de Normalización) es una <b>entidad independiente que
+            desarrolla y publica estándares (normas) internacionales para asegurar la calidad,
+            seguridad y eficiencia de productos, servicios y sistemas.</b>
+            ]]>
+        </introduccion>
+
+        <introduccion>
+            Su diseño modular permite que si algo falla, los técnicos puedan identificar rápidamente
+            en qué capa está el problema, facilitando el diagnóstico y la reparación.
+        </introduccion>
+
+        <seccion>
+            <titulo><![CDATA[<b>7. Aplicación</b>]]></titulo>
+            <description>
+                Interfaz directa con el usuario final. Aquí operan navegadores web, clientes de
+                correo, aplicaciones de mensajería. Protocolos: HTTP, FTP, SMTP, DNS.
+            </description>
+        </seccion>
+
+        <seccion>
+            <titulo><![CDATA[<b>6. Presentación</b>]]></titulo>
+            <description>
+                Formato y representación de datos. Cifrado, compresión y conversión de formatos
+                (JPEG, MP3, SSL/TLS). Garantiza que el emisor y receptor "hablen el mismo idioma".
+            </description>
+        </seccion>
+
+        <seccion>
+            <titulo><![CDATA[<b>5. Sesión</b>]]></titulo>
+            <description>
+                Gestiona el diálogo entre aplicaciones. Establece, mantiene y finaliza sesiones de
+                comunicación. Control de tokens y sincronización de datos.
+            </description>
+        </seccion>
+
+        <seccion>
+            <titulo><![CDATA[<b>4. Transporte</b>]]></titulo>
+            <description>
+                Entrega confiable de datos extremo a extremo. Segmentación, control de flujo y
+                corrección de errores. Protocolos principales: TCP (fiable, orientado a conexión) y
+                UDP (rápido, sin conexión).
+            </description>
+        </seccion>
+
+        <seccion>
+            <titulo><![CDATA[<b>3. Red</b>]]></titulo>
+            <description>
+                Direccionamiento lógico (IP) y enrutamiento de paquetes. Los routers operan aquí,
+                decidiendo la mejor ruta para cada paquete. Protocolo principal: IP (IPv4/IPv6).
+            </description>
+        </seccion>
+
+        <seccion>
+            <titulo><![CDATA[<b>2. Enlace de Datos</b>]]></titulo>
+            <description>
+                Direccionamiento físico (MAC), control de acceso al medio, detección de errores en
+                el nivel de trama. Los switches operan en esta capa. Protocolos: Ethernet, Wi-Fi
+                (802.11).
+            </description>
+        </seccion>
+
+        <seccion>
+            <titulo><![CDATA[<b>1. Física</b>]]></titulo>
+            <description>
+                Hardware puro: cables, conectores, voltajes, frecuencias de radio. Transmisión de
+                bits en bruto (0s y 1s) a través del medio físico. Especificaciones de cables Cat6,
+                fibra óptica, ondas Wi-Fi.
+            </description>
+        </seccion>
+
+    </paginaCinco>
+</caracteristicas>
